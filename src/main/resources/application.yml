@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: AR-API
+  config:
+    import: optional:configserver:http://localhost:2222
+  
+
